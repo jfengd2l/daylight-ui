@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>daylight-ui</title>
+
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="bower_components/iron-component-page/iron-component-page.html">
+  </head>
+  <body>
+    <!-- <iron-component-page src="daylight-ui.html"></iron-component-page> -->
+    <link rel="import" href="daylight-ui.html">
+    <button is="d2l-button" primary>Primary Button</button>
+    <d2l-dropdown-button text="More Actions">
+      <d2l-dropdown-menu>
+        <d2l-menu label="More Actions">
+          <d2l-menu-item text="Add Existing Users"></d2l-menu-item>
+          <d2l-menu-item text="Create and enroll a new user"></d2l-menu-item>
+          <d2l-menu-item text="Import users from file"></d2l-menu-item>
+        </d2l-menu>
+      </d2l-dropdown-menu>
+    </d2l-dropdown-button>
+    <button is="d2l-button">Something else</button>
+    <button is="d2l-button">Something else</button>
+  </body>
+</html>

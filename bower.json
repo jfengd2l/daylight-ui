@@ -1,0 +1,36 @@
+{
+  "name": "daylight-ui",
+  "version": "1.0.0",
+  "description": "A collection of Daylight UI components",
+  "main": "daylight-ui.html",
+  "keywords": [
+    "ui",
+    "daylight"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.7.0",
+    "d2l-button-group": "0.1.5",
+    "d2l-button": "3.0.6",
+    "vui-input": "1.6.3",
+    "vui-breadcrumbs": "2.1.1",
+    "d2l-table": "0.2.9",
+    "vui-dropdown": "0.7.2",
+    "d2l-typography": "5.0.1",
+    "d2l-icons": "2.12.1",
+    "vui-grid-system": "0.0.1"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#1.0.0",
+    "web-component-tester": "4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#0.7.23"
+  }
+}

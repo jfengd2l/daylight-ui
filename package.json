@@ -1,0 +1,31 @@
+{
+  "name": "daylight-ui",
+  "version": "1.2.2",
+  "description": "A collection of Daylight UI components",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postinstall": "bower install && node-sass --output-style expanded daylight-ui.css.scss daylight-ui.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jfengd2l/daylight-ui.git"
+  },
+  "keywords": [
+    "ui",
+    "daylight"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfengd2l/daylight-ui/issues"
+  },
+  "homepage": "https://github.com/jfengd2l/daylight-ui#readme",
+  "dependencies": {
+    "bower": "1.8.0",
+    "node-sass": "3.12.5"
+  }
+}
