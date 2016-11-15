@@ -1,0 +1,71 @@
+@import url(https://s.brightspace.com/lib/fonts/0.3.0/fonts.css);
+@import 'bower_components/vui-input/input.css.scss';
+@import 'bower_components/vui-dropdown/dropdown.css.scss';
+@import 'bower_components/vui-breadcrumbs/breadcrumbs.css.scss';
+@import "bower_components/vui-grid-system/grid-system.scss";
+
+.vui-dropdown-menu {
+  @include vui-dropdown-menu;
+}
+
+.vui-dropdown-menu a {
+  @include vui-dropdown-menu-item-link;
+}
+
+.vui-dropdown-menu .focus {
+  @include vui-dropdown-menu-item-focus;
+}
+
+.vui-dropdown-menu a.disabled {
+  @include vui-dropdown-menu-item-link-disabled;
+}
+
+.vui-dropdown-context-menu {
+  @include vui-dropdown-context-menu;
+}
+
+.vui-dropdown-context-menu.open {
+  @include vui-dropdown-context-menu-open;
+}
+
+.vui-dropdown-context-menu.focus {
+  @include _vui-dropdown-context-menu-focus;
+}
+
+.vui-dropdown-button-menu {
+  @include vui-dropdown-button-menu;
+}
+
+.vui-dropdown-button-menu > span {
+  @include vui-dropdown-button-menu-content;
+}
+
+.vui-dropdown-button-menu-primary {
+  @include vui-dropdown-button-menu-primary;
+}
+
+.vui-dropdown-button-menu-primary > span {
+  @include vui-dropdown-button-menu-primary-content;
+}
+
+.vui-dropdown-button-menu > span.hidden-text,
+.vui-dropdown-button-menu-primary > span.hidden-text {
+  @include vui-dropdown-button-menu-text-hidden;
+}
+
+
+.vui-grid {
+  @include vui-gs-container;
+}
+
+.vui-grid.row {
+  @include vui-gs-row;
+}
+
+.vui-grid.nav {
+    @include vui-gs-span(4);
+}
+
+.vui-grid.main {
+    @include vui-gs-span(last 8);
+}
